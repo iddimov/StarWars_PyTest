@@ -2,9 +2,9 @@
 To run the project:
 1. Download and install VSCode
 2. Download the project from github
-3. Run the followint command in project's terminal (could be done in VSCode terminal window):
-for Windows: pip install -r requirements.txt
-for Mac: pip3 install -r requirements.txt
+3. Run the following command in project's terminal (could be done in VSCode terminal window):
+for Windows: **pip install -r requirements.txt**
+for Mac: **pip3 install -r requirements.txt**
 4. This should install all needed libraries.
 5. Open test explorer on VSCode
 6. Click on the run icon on the explorer
