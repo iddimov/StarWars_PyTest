@@ -10,13 +10,13 @@ for Mac: pip3 install -r requirements.txt
 6. Click on the run icon on the explorer
 or
 run the following in the terminal:
-pytest tests/features
+"pytest tests/features"
 
 
 --
 Example of Test Cases/Scenarios:
 
-People Endpoint:
+**People Endpoint:**
 * Retrieve Luke Skywalker’s Information:
 * Send a GET request to the people endpoint: https://swapi.dev/api/people/1/.
 * Verify that the response contains the expected data (name, height, mass, etc.).
@@ -24,7 +24,7 @@ Verify Films and Vehicles:
 * Check if Luke Skywalker appears in the specified films and vehicles.
 * Validate the film URLs and vehicle URLs.
 
-Planets Endpoint:
+**Planets Endpoint:**
 * Retrieve Yavin IV’s Information:
 * Send a GET request to the planets endpoint: https://swapi.dev/api/planets/3/.
 Verify that the response contains the expected data (name, rotation period, climate, etc.).
@@ -32,7 +32,7 @@ Verify that the response contains the expected data (name, rotation period, clim
 * Confirm that Yavin IV appears in the specified film.
 Validate the film URL and the absence of residents.
 
-Starships Endpoint:
+**Starships Endpoint:**
 * Retrieve Death Star’s Information:
 * Send a GET request to the starships endpoint: https://swapi.dev/api/starships/9/.
 * Verify that the response contains the expected data (name, model, crew, etc.).
