@@ -1,0 +1,30 @@
+{
+    "cucumber.glue": [
+
+        "*specs*/**/*.cs",
+        "features/**/*.js",
+        "features/**/*.jsx",
+        "features/**/*.php",
+        "features/**/*.py",
+        "features/**/*.rs",
+        "features/**/*.rb",
+        "features/**/*.ts",
+        "features/**/*.tsx",
+        "features/**/*_test.go",
+        "src/test/**/*.java",
+        "tests/**/*.py",
+        "tests/**/*.rs"
+    ],
+    "cucumber.features": [
+        
+        "src/test/**/*.feature",
+        "features/**/*.feature",
+        "tests/**/*.feature",
+        "*specs*/**/*.feature"
+    ],
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
