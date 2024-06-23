@@ -14,7 +14,7 @@ run the following in the terminal:
 
 
 --
-Example of Test Cases/Scenarios:
+Examples of Test Cases/Scenarios to be added:
 
 **People Endpoint:**
 * Retrieve Luke Skywalker’s Information:
